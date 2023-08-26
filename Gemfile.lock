@@ -152,7 +152,7 @@ GEM
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.0)
+    mini_portile2 (2.8.4)
     minitest (5.15.0)
     mocha (1.13.0)
     msgpack (1.5.1)
@@ -171,14 +171,14 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
-    nokogiri (1.13.3)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.15.4)
+      mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    nokogiri (1.13.3-aarch64-linux)
+    nokogiri (1.15.4-aarch64-linux)
       racc (~> 1.4)
-    nokogiri (1.13.3-arm64-darwin)
+    nokogiri (1.15.4-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.3-x86_64-linux)
+    nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
     oj (3.13.11)
     ox (2.14.11)
@@ -195,7 +195,7 @@ GEM
     puma (5.6.4)
       nio4r (~> 2.0)
     raabro (1.4.0)
-    racc (1.6.0)
+    racc (1.7.1)
     rack (2.2.3)
     rack-attack (6.6.0)
       rack (>= 1.0, < 3)
@@ -345,7 +345,7 @@ DEPENDENCIES
   faraday-retry
   jbuilder
   mocha
-  nokogiri
+  nokogiri (= 1.15.4)
   oj
   ox
   pagy
